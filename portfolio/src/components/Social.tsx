@@ -16,7 +16,7 @@ const Social = () => {
       animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="flex items-center justify-center">
+      <div className="flex items-center mb-28 justify-center">
         {SOCIAL_MEDIA.map((item) => (
           <a
             key={item.id}
