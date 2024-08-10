@@ -35,7 +35,7 @@ const CardHobbies = () => {
   };
 
   return (
-    <div className="card bg-custom-almond w-96 shadow-xl">
+    <div className="card bg-custom-green w-96 shadow-xl">
       <figure className="px-10 pt-10">
         <div className="bg-base-100 w-[350px] h-[230px] rounded-lg relative">
           <motion.ul
@@ -96,7 +96,7 @@ const CardHobbies = () => {
         </div>
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title font-bold">Hobbies</h2>
+        <h2 className="card-title font-bold text-white">Hobbies</h2>
       </div>
     </div>
   );
