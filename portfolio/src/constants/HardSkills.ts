@@ -27,8 +27,8 @@ export const HARD_SKILLS = [
     skills: [
       { id: 1, name: "Angular" },
       { id: 2, name: "Express" },
-      { id: 3, name: "SpringBoot" },
-      { id: 4, name: "SpringCloud" },
+      { id: 3, name: "Spring Boot" },
+      { id: 4, name: "Spring Cloud" },
       { id: 5, name: "Sass" },
       { id: 6, name: "JUnit" },
       { id: 7, name: "React Native" }
