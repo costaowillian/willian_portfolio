@@ -1,6 +1,9 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Sobre from "../components/Sobre";
+import Social from "../components/Social";
+import Skills from "../components/Skills";
+import Projetos from "../components/Projetos";
 
 const Home = () => {
   return (
@@ -9,6 +12,9 @@ const Home = () => {
         <div className="max-w-screen">
           <Banner />
           <Sobre />
+          <Social />
+          <Skills />
+          <Projetos />
         </div>
       </div>
     </div>
