@@ -3,10 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { motion, useInView } from "framer-motion";
 import CardHobbies from "../../components/CardHobbies";
 import {
-  faSpotify,
-  faDumbbell,
-  faCompass,
-  faPalette
+  faSpotify
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faDumbbell as faDumbbellSolid,
