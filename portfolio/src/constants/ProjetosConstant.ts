@@ -1,7 +1,7 @@
 import React from "react";
-import powerCredtioImg from "../assets/_img/power_credito.png";
-import orantePortfolioImg from "../assets/_img/orange_portfolio.png";
-import alpacaFilmesImg from "../assets/_img/alpaca_filmes.png";
+import powerCredtioImg from "../assets/_img/power_credito.jpg";
+import orantePortfolioImg from "../assets/_img/orange_portfolio.jpg";
+import alpacaFilmesImg from "../assets/_img/alpaca_filmes.jpg";
 import filmesApiImg from "../assets/_img/filmes_api.jpg";
 
 export const PROJETOS = [
