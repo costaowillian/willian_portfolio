@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfólio",
+  "name": "Portfólio - Willian Costa",
+  "author": "Willian Costa <willian95@outlook.com>",
   "icons": [
     {
       "src": "favicon.ico",
