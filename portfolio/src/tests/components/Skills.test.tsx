@@ -19,7 +19,7 @@ jest.mock("react-intersection-observer", () => ({
 }));
 
 describe("Skills Component", () => {
-  test("Deve rendereizar o componente Sobre com todos os elementos", () => {
+  test("Deve rendereizar o componente Skills com todos os elementos", () => {
     render(<Skills />);
     const title = screen.getByText(/Programing Skills/i);
     expect(title).toBeInTheDocument();
