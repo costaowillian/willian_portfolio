@@ -31,7 +31,7 @@ jest.mock("react-intersection-observer", () => ({
 }));
 
 describe("CardHobies Component", () => {
-  test("eve renderizar o título e todos os itens de hobbies com seus ícones e badges", () => {
+  test("eve renderizar o componente CardHobbies e todos os itens de hobbies com seus ícones e badges", () => {
     render(<CardHobbies />);
     const title = screen.getByText(/Hobbies/i);
     expect(title).toBeInTheDocument();
