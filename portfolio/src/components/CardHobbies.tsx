@@ -53,7 +53,7 @@ const CardHobbies = () => {
             <motion.li variants={item}>
               {" "}
               <div className="w-[112px] transform rotate-12 absolute top-4 left-20">
-                <FontAwesomeIcon icon={faDumbbell} size="2x" />
+                <FontAwesomeIcon icon={faDumbbell} size="2x" data-testid="dumbbell" />
               </div>
             </motion.li>
             <motion.li variants={item}>
@@ -71,7 +71,7 @@ const CardHobbies = () => {
             <motion.li variants={item}>
               {" "}
               <div className="w-[112px] transform rotate-3 absolute top-24 left-24">
-                <FontAwesomeIcon icon={faSpotify} size="2x" />
+                <FontAwesomeIcon icon={faSpotify} size="2x" data-testid="spotify" />
               </div>
             </motion.li>
             <motion.li variants={item}>
@@ -83,13 +83,13 @@ const CardHobbies = () => {
             <motion.li variants={item}>
               {" "}
               <div className="w-[112px] transform absolute top-44 left-4">
-                <FontAwesomeIcon icon={faPalette} size="2x" />
+                <FontAwesomeIcon icon={faPalette} size="2x" data-testid="palette"/>
               </div>
             </motion.li>
             <motion.li variants={item}>
               {" "}
               <div className="w-[112px] transform -rotate-12 absolute top-44 left-52">
-                <FontAwesomeIcon icon={faCompass} size="2x" />
+                <FontAwesomeIcon icon={faCompass} size="2x" data-testid="compass" />
               </div>
             </motion.li>
           </motion.ul>
