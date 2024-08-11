@@ -19,7 +19,7 @@ jest.mock("react-intersection-observer", () => ({
 }));
 
 describe("Projetos Componet", () => {
-  test("Deve renderizar o título e todos os projetos com suas respectivas tecnologias", () => {
+  test("Deve renderizar o component Projetos e todos os projetos com suas respectivas tecnologias", () => {
     render(<Projetos />);
 
     const title = screen.getByText("Últimos projetos desenvolvidos");
