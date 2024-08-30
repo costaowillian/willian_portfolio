@@ -1,4 +1,3 @@
-import React from "react";
 import powerCredtioImg from "../assets/_img/power_credito.jpg";
 import orantePortfolioImg from "../assets/_img/orange_portfolio.jpg";
 import alpacaFilmesImg from "../assets/_img/alpaca_filmes.jpg";
@@ -32,20 +31,6 @@ export const PROJETOS = [
       { id: 3, name: "RabbitMQ" },
       { id: 4, name: "Spring Cloud" },
       { id: 5, name: "Spring Boot" }
-    ]
-  },
-  {
-    id: 3,
-    title: "Financial Organizer",
-    descricao:
-      "Aplicativo web para registro de entradas e saídas financeiras para MEI.",
-    link: "https://github.com/costaowillian/financial-organizer",
-    img: "",
-    tecnologias: [
-      { id: 1, name: "Java" },
-      { id: 2, name: "React" },
-      { id: 3, name: "Mysql" },
-      { id: 4, name: "JUnit" }
     ]
   },
   {
