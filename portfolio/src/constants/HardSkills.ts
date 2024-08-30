@@ -1,4 +1,3 @@
-import React from "react";
 import tecnologiasGif from "../assets/_animacoes/computador-portatil.gif";
 import framworksGif from "../assets/_animacoes/configuracoes.gif";
 import libsIcon from "../assets/_animacoes/navegador.gif";
@@ -31,7 +30,7 @@ export const HARD_SKILLS = [
       { id: 4, name: "Spring Cloud" },
       { id: 5, name: "Sass" },
       { id: 6, name: "JUnit" },
-      { id: 7, name: "React Native" }
+      { id: 7, name: "NextJs" }
     ]
   },
   {
