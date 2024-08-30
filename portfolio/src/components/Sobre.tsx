@@ -10,8 +10,8 @@ const Sobre = () => {
   });
   return (
     <div className="hero min-h-screen">
-      <div className="absolute left-0 top-50 transform -translate-y-1/2h-full w-[183px] h-[600px] flex items-center justify-center bg-custom-green rounded-r-lg hidden ms:hidden lg:flex">
-        <p className="text-3xl transform -rotate-90 text-white font-bold tracking-widest">
+      <div className="absolute left-0 top-50 transform -translate-y-1/2h-full w-[136px] h-[600px] flex items-center justify-center bg-custom-green rounded-r-lg hidden ms:hidden lg:flex">
+        <p className="text-2xl transform -rotate-90 text-white font-bold">
           Quem sou?
         </p>
       </div>
@@ -21,7 +21,7 @@ const Sobre = () => {
         animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="hero-content text-center mx-[20px]">
+        <div className="hero-content text-center lg:ml-24">
           <div className="">
             <h1 className="text-5xl font-bold">Um pouco sobre o Willian</h1>
             <div className="hero">
