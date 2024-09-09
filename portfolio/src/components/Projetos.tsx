@@ -16,7 +16,7 @@ const Projetos = () => {
       animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="hero mt-[100px]">
+      <div id="projetos" className="hero mt-[100px]">
         <div className="hero-content text-center">
           <div className="">
             <h1 className="text-5xl font-bold">
@@ -24,7 +24,12 @@ const Projetos = () => {
             </h1>
             <div className="flex flex-wrap justify-center gap-6 mt-8">
               {PROJETOS.map((projeto) => (
-                <a key={projeto.id} href={projeto.link}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  key={projeto.id}
+                  href={projeto.link}
+                >
                   <div className="card bg-base-100 w-96 shadow-xl bg-custom-green h-[440px]">
                     <figure className="px-10 pt-10">
                       <img

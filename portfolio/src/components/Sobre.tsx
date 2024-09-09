@@ -9,7 +9,7 @@ const Sobre = () => {
     threshold: 0.1
   });
   return (
-    <div className="hero min-h-screen">
+    <div id="sobre" className="hero min-h-screen">
       <div className="absolute left-0 top-50 transform -translate-y-1/2h-full w-[136px] h-[600px] flex items-center justify-center bg-custom-green rounded-r-lg hidden ms:hidden lg:flex">
         <p className="text-2xl transform -rotate-90 text-white font-bold">
           Quem sou?
