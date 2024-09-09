@@ -7,9 +7,12 @@ module.exports = {
         "custom-green": "#088770",
         "custom-purple": "#4F56D3",
         "custom-almond": "#EAE6DC",
-        "custom-balck": "#292929",
-      },
-    },
+        "custom-black": "#292929"
+      }
+    }
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"]
+  }
 };
