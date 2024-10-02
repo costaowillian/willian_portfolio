@@ -2,8 +2,9 @@ import powerCredtioImg from "../assets/_img/power_credito.jpg";
 import orantePortfolioImg from "../assets/_img/orange_portfolio.jpg";
 import alpacaFilmesImg from "../assets/_img/alpaca_filmes.jpg";
 import filmesApiImg from "../assets/_img/filmes_api.jpg";
+import { TProjeto } from "../Types/Projeto.type";
 
-export const PROJETOS = [
+export const PROJETOS: TProjeto[] = [
   {
     id: 1,
     title: "Orange Portfólio",

@@ -1,8 +1,9 @@
 import tecnologiasGif from "../assets/_animacoes/computador-portatil.gif";
 import framworksGif from "../assets/_animacoes/configuracoes.gif";
 import libsIcon from "../assets/_animacoes/navegador.gif";
+import { THardSkill } from "../Types/HardSkill.type";
 
-export const HARD_SKILLS = [
+export const HARD_SKILLS: THardSkill[] = [
   {
     id: 1,
     type: "Tecnologias",

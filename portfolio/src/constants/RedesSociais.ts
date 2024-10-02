@@ -1,12 +1,11 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faGithub,
   faSquareBehance
 } from "@fortawesome/free-brands-svg-icons";
+import { TSocialMedia } from "../Types/SocialMedia.type";
 
-export const SOCIAL_MEDIA = [
+export const SOCIAL_MEDIA: TSocialMedia[] = [
   {
     id: 1,
     name: "Linkdin",
