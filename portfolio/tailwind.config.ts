@@ -25,7 +25,7 @@ export default {
         primary: "#4F56D3",
         secondary: "#088770",
         secondary_500: "#33CCCC",
-        black: "#292929",
+        custom_black: "#292929",
         soft_white: "#F9F5F5"
       }
     },
