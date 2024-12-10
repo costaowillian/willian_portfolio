@@ -21,7 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ubuntu.className} antialiased`}>{children}</body>
+      <body
+        className={`${ubuntu.className} antialiased flex flex-col pb-[90px] sm:pb-0`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
