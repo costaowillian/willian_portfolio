@@ -8,16 +8,31 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
+    screens: {
+      sm: "880px"
+    },
+    container: {
+      center: true,
+      screens: {
+        sm: "600px",
+        md: "728px",
+        lg: "984px",
+        xl: "1118px"
+      }
+    },
     extend: {
       colors: {
         primary: "#4F56D3",
         secondary: "#088770",
-        "secondary-500": "#33CCCC",
+        secondary_500: "#33CCCC",
         black: "#292929",
-        "soft-white": "#F9F5F5"
+        soft_white: "#F9F5F5"
       }
     },
-    plugins: [require("daisyui")]
+    boxShadow: {
+      lg: "0px 2px 10px 0px rgba(0, 0, 0, 0.15)",
+      negative: "0px -1px 10px 0px #00000026"
+    }
   },
-  plugins: []
+  plugins: [require("daisyui")]
 } satisfies Config;
