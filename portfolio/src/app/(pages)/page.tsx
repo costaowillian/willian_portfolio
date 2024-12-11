@@ -1,20 +1,18 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Image from "next/image";
-import { useInView } from "react-intersection-observer";
 
 import Button from "@/components/Button/Button";
 import Social from "@/components/Social/Social";
 import HomeBanner from "@/components/HomeBanner/HomeBanner";
 import NavBar from "@/components/Navbar/NavBar";
+import Stack from "@/components/Stack/Stack";
+import CardList from "@/components/CardList/CardList";
+import Contact from "@/components/Contact/Contact";
+import { SOCIAL_MEDIA } from "@/constants/contact";
+import CustomIconLink from "@/components/CustomIconLink/CustomIconLink";
 
 export default function Home() {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.1
-  });
-
   return (
     <div className="container">
       <section className="mx-4 sm:mx-0 ">
@@ -25,56 +23,53 @@ export default function Home() {
         </div>
 
         <section className="flex flex-col gap-20 mt-10">
-          <motion.div
-            ref={ref}
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={
-              inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }
-            }
-            transition={{ duration: 0.5 }}
-          >
-            <section className="flex flex-col gap-4">
-              <div className="flex justify-between">
-                <h2 className="text-4xl sm:text-5xl">
-                  Descubra um pouco sobre o Willian
-                </h2>
-                <Button
-                  title={"Saiba mais"}
-                  iconSlot="/icons/arrow.svg"
-                  click={() => {
-                    throw new Error("Function not implemented.");
-                  }}
+          <section className="flex flex-col gap-4">
+            <div className="flex justify-between">
+              <h2 className="text-4xl sm:text-5xl font-bold">
+                Descubra um pouco sobre o Willian
+              </h2>
+              <Button
+                title={"Saiba mais"}
+                iconSlot="/icons/arrow.svg"
+                click={() => {
+                  throw new Error("Function not implemented.");
+                }}
+              />
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div className="w-[535px] hidden sm:flex items-center justify-center">
+                <Image
+                  src={"/icons/circles-green.svg"}
+                  width={136}
+                  height={51}
+                  alt="Elemento de circulos"
                 />
               </div>
 
-              <div className="flex items-center justify-between">
-                <div className="w-[535px] hidden sm:flex items-center justify-center">
-                  <Image
-                    src={"/icons/circles-green.svg"}
-                    width={136}
-                    height={51}
-                    alt="Elemento de circulos"
-                  />
-                </div>
-
-                <p className="w-full text-xl">
-                  Sou desenvolvedor full stack com formação em Desenvolvimento
-                  de Sistemas e especialização em front-end e UI Design. Tenho
-                  sólida experiência com tecnologias como Node.js, React.js,
-                  Java, Spring Boot e TypeScript/JavaScript. Além disso, possuo
-                  uma formação em Marketing e um MBA em Marketing Estratégico
-                  Digital, o que me permite unir habilidades técnicas e visão
-                  estratégica para entregar soluções inovadoras e impactantes.
-                </p>
-              </div>
-            </section>
-          </motion.div>
-
-          <Social />
+              <p className="w-full text-xl">
+                Sou desenvolvedor full stack com formação em Desenvolvimento de
+                Sistemas e especialização em front-end e UI Design. Tenho sólida
+                experiência com tecnologias como Node.js, React.js, Java, Spring
+                Boot e TypeScript/JavaScript. Além disso, possuo uma formação em
+                Marketing e um MBA em Marketing Estratégico Digital, o que me
+                permite unir habilidades técnicas e visão estratégica para
+                entregar soluções inovadoras e impactantes.
+              </p>
+            </div>
+          </section>
 
           <section>
-            <div className="flex justify-between gap-10">
-              <h2 className="text-4xl sm:text-5xl w-full">
+            <div className="flex items-center justify-center">
+              {SOCIAL_MEDIA.map((item) => (
+                <CustomIconLink key={item.id} data={item} />
+              ))}
+            </div>
+          </section>
+
+          <section className="flex flex-col gap-4">
+            <div className="flex flex-col sm:flex-row justify-between gap-4">
+              <h2 className="text-4xl sm:text-5xl w-full font-bold">
                 Empresas e Projetos onde Deixei minha Marca
               </h2>
 
@@ -86,7 +81,32 @@ export default function Home() {
                 otimizar a eficiência.
               </p>
             </div>
+
+            <Stack />
           </section>
+
+          <section className="flex flex-col gap-4">
+            <div className="flex justify-between items-center">
+              <Image
+                src={"/icons/circles-green.svg"}
+                width={136}
+                height={51}
+                alt="Elemento de circulos"
+              />
+
+              <h2 className="text-4xl sm:text-5xl font-bold">Hard Skills</h2>
+            </div>
+
+            <p className="w-full text-xl text-center sm:text-left">
+              Durante minha jornada, tive a oportunidade de aprender e aplicar
+              tecnologias inovadoras que têm moldado e aprimorado minhas
+              habilidades continuamente.
+            </p>
+
+            <CardList />
+          </section>
+
+          <Contact />
         </section>
       </section>
     </div>
