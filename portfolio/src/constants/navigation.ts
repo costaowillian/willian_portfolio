@@ -13,7 +13,7 @@ export const NAVIGATION_LINKS: Link[] = [
     href: "/"
   },
   {
-    text: "Atuações",
+    text: "Minha Jornada",
     href: "/"
   },
   {
