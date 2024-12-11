@@ -15,7 +15,7 @@ export default function HomeBanner({ size, classNames }: Readonly<Props>) {
 
   return (
     <section className={`${baseClasses} ${sizes} ${classNames}`}>
-      <p className="text-[52px] sm:text-[160px] text-white text-center">
+      <p className="text-[52px] sm:text-[10rem] text-white text-center">
         Willian Costa
       </p>
 
@@ -34,8 +34,8 @@ export default function HomeBanner({ size, classNames }: Readonly<Props>) {
             </p>
 
             <p className="text-[22px] text-white">
-              Sou desenvolvedor full stack, com grande foto em Front-end e na
-              criação de experiências centradas no usuário.
+              Especizalizado em criar experiências digitais imersivas e
+              centradas no usuário.
             </p>
           </div>
 
