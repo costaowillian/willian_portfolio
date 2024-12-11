@@ -27,7 +27,7 @@ export default {
         secondary: "#088770",
         secondary_500: "#33CCCC",
         custom_black: "#292929",
-        soft_white: "#F9F5F5"
+        soft_white: "#F9F6F6"
       }
     },
     boxShadow: {

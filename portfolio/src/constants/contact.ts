@@ -4,13 +4,29 @@ import {
   faSquareBehance,
   IconDefinition
 } from "@fortawesome/free-brands-svg-icons";
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-type Contact = {
+export type Contact = {
   id: number;
   name: string;
   url: string;
   icon: IconDefinition;
 };
+
+export const CONTACTS: Contact[] = [
+  {
+    id: 1,
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/your-profile-linkedin",
+    icon: faLinkedin
+  },
+  {
+    id: 2,
+    name: "email",
+    url: "mailto:willian95@outlook.com",
+    icon: faSquareEnvelope
+  }
+];
 
 export const SOCIAL_MEDIA: Contact[] = [
   {
