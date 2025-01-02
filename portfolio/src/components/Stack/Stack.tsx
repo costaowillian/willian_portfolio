@@ -1,7 +1,13 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
 import Button from "@/components/Button/Button";
 import { EXPERIENCES } from "@/constants/experiences";
 
 export default function Stack() {
+  const router = useRouter();
+
   return (
     <div className="flex flex-col">
       {EXPERIENCES.map((experience) => (
@@ -22,9 +28,7 @@ export default function Stack() {
             <Button
               title={"Saiba mais"}
               className="group-hover:!bg-primary group-hover:text-white group-hover:border-none"
-              click={function (): void {
-                throw new Error("Function not implemented.");
-              }}
+              click={() => router.push(`page/experience/${experience.id}`)}
             />
           </div>
         </div>
