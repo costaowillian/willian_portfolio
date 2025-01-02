@@ -42,7 +42,9 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1">
           {NAVIGATION_LINKS.map((link) => (
             <li key={link.text}>
-              <Link href={link.href}>{link.text}</Link>
+              <Link href={link.href} className="hover:!bg-primary_100">
+                {link.text}
+              </Link>
             </li>
           ))}
         </ul>
