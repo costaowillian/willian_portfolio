@@ -54,7 +54,11 @@ export default function Page() {
             className="sm:hidden"
           />
 
-          <ContentComponent params={paramsArray?.slice(1)} />
+          <div className="w-[1020px]">
+            <ContentComponent params={paramsArray?.slice(1)} />
+          </div>
+
+          {/* <ContentComponent params={paramsArray?.slice(1)} /> */}
         </div>
 
         <Contact />

@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 
-import Badge from "@/components/Badge/Badge";
 import BadgeList from "@/components/BadgeList/BadgeList";
 
 export function ProfileContent() {
@@ -11,7 +10,7 @@ export function ProfileContent() {
       <h2 className="text-4xl sm:text-5xl font-bold">Quem é o Willian?</h2>
 
       <Image
-        src="/images/image 3.jpg"
+        src="/images/hobbies.png"
         width={1198}
         height={440}
         alt="Imagem do Willian"
@@ -52,8 +51,8 @@ export function ProfileContent() {
       <BadgeList
         skills={[
           { id: 1, name: "Pintura" },
-          { id: 1, name: "Música" },
-          { id: 1, name: "Jogos" }
+          { id: 2, name: "Música" },
+          { id: 3, name: "Jogos" }
         ]}
       />
 

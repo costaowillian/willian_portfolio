@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 import Button from "@/components/Button/Button";
-import Social from "@/components/Social/Social";
 import HomeBanner from "@/components/HomeBanner/HomeBanner";
 import NavBar from "@/components/Navbar/NavBar";
 import Stack from "@/components/Stack/Stack";
@@ -13,6 +13,8 @@ import { SOCIAL_MEDIA } from "@/constants/contact";
 import CustomIconLink from "@/components/CustomIconLink/CustomIconLink";
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div className="container">
       <section className="mx-4 sm:mx-0 ">
@@ -22,7 +24,7 @@ export default function Home() {
           <NavBar />
         </div>
 
-        <section className="flex flex-col gap-20 mt-10">
+        <section id="sobre" className="flex flex-col gap-20 mt-10">
           <section className="flex flex-col gap-4">
             <div className="flex justify-between">
               <h2 className="text-4xl sm:text-5xl font-bold">
@@ -31,9 +33,7 @@ export default function Home() {
               <Button
                 title={"Saiba mais"}
                 iconSlot="/icons/arrow.svg"
-                click={() => {
-                  throw new Error("Function not implemented.");
-                }}
+                click={() => router.push("page/profile")}
               />
             </div>
 
@@ -67,7 +67,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="flex flex-col gap-4">
+          <section id="minha-jornada" className="flex flex-col gap-4">
             <div className="flex flex-col sm:flex-row justify-between gap-4">
               <h2 className="text-4xl sm:text-5xl w-full font-bold">
                 Empresas e Projetos onde Deixei minha Marca
@@ -85,7 +85,7 @@ export default function Home() {
             <Stack />
           </section>
 
-          <section className="flex flex-col gap-4">
+          <section id="skills" className="flex flex-col gap-4">
             <div className="flex justify-between items-center">
               <Image
                 src={"/icons/circles-green.svg"}
