@@ -17,7 +17,7 @@ export const CONTACTS: Contact[] = [
   {
     id: 1,
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/your-profile-linkedin",
+    url: "https://www.linkedin.com/in/willianocosta/",
     icon: faLinkedin
   },
   {

@@ -23,49 +23,51 @@ export type Tecnlogies = {
 export const EXPERIENCES_CONTENT: ExperiencesContent[] = [
   {
     id: 1,
-    title: "Desenvolvedor front-End | Gipsyy, FCamara",
-    image: "/images/image 3.jpg",
+    title: "Desenvolvedor Front-End | Gipsyy, FCamara",
+    image: "/images/fcamara.jpg",
 
     duration: {
       title: "Atuação",
-      content: ["04/2024 - Até o Momento"]
+      content: ["08/2024 - Até o Momento"]
     },
 
     experience: {
       title: "Minha experiência:",
       content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt sit amet arcu id imperdiet. Ut porttitor metus a suscipit lobortis. Mauris ut commodo nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut quam dignissim, vehicula lectus et, bibendum massa. Suspendisse tincidunt auctor leo vitae bibendum. Pellentesque quis augue at quam fringilla vehicula ut nec leo. Pellentesque et felis condimentum, vulputate turpis a, lobortis ipsum.",
-        " Quisque turpis velit, pulvinar eget dignissim sit amet, eleifend id est. Nullam lacinia sit amet leo ac vestibulum. Ut tempor libero sed semper semper. Morbi eu risus at lectus faucibus varius eu at risus. Nunc vehicula nunc nec augue pretium, ut eleifend sem semper. Morbi mattis eget ipsum mollis consequat. Nam dolor magna, convallis eu metus pellentesque, placerat lacinia augue. Morbi lobortis eros convallis mauris aliquet scelerisque. Mauris convallis diam nulla, at imperdiet diam tincidunt non. Vestibulum ac sagittis dolor. Cras aliquam diam et justo vulputate dapibus. Nunc porta accumsan vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut neque neque. Donec dapibus faucibus leo, non finibus nibh commodo id."
+        "Atuei no desenvolvimento de ecommerces, sites e interfaces intuitivas para plataformas como Totem seguindo os designs propostos, garantindo uma experiência de usuário eficiente e alinhada às expectativas do cliente. Realizei integrações com APIs, testes unitários para assegurar a qualidade do código e participei de reuniões para levantamento de requisitos e alinhamento técnico. Contribuí para a entrega de soluções escaláveis e bem documentadas, sempre focando na colaboração e melhoria contínua."
       ]
     },
 
     tecnologies: {
-      title: "Tencologias que utilizei:",
+      title: "Tecnologias que utilizei:",
       skills: [
-        { id: 1, name: "Java" },
+        { id: 1, name: "Next.js" },
         { id: 2, name: "TypeScript" },
-        { id: 3, name: "HTML5" },
-        { id: 4, name: "CSS3" },
-        { id: 5, name: "JavaScript" },
-        { id: 6, name: "Node.js" },
-        { id: 7, name: "MySQL" },
-        { id: 8, name: "Docker" },
-        { id: 9, name: "RabbitMQ" }
+        { id: 3, name: "React.js" },
+        { id: 4, name: "Tailwind CSS" },
+        { id: 5, name: "Vitest" },
+        { id: 6, name: "Ky.js" },
+        { id: 7, name: "Git" },
+        { id: 8, name: "Jira" },
+        { id: 9, name: "React Hook Forms" },
+        { id: 10, name: "Framer Motion" }
       ]
     },
 
     learnings: {
       title: "Aprendizados:",
       content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt sit amet arcu id imperdiet. Ut porttitor metus a suscipit lobortis. Mauris ut commodo nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut quam dignissim, vehicula lectus et, bibendum massa. Suspendisse tincidunt auctor leo vitae bibendum. Pellentesque quis augue at quam fringilla vehicula ut nec leo. Pellentesque et felis condimentum, vulputate turpis a, lobortis ipsum.",
-        "Quisque turpis velit, pulvinar eget dignissim sit amet, eleifend id est. Nullam lacinia sit amet leo ac vestibulum. Ut tempor libero sed semper semper. Morbi eu risus at lectus faucibus varius eu at risus. Nunc vehicula nunc nec augue pretium, ut eleifend sem semper. Morbi mattis eget ipsum mollis consequat. Nam dolor magna, convallis eu metus pellentesque, placerat lacinia augue. Morbi lobortis eros convallis mauris aliquet scelerisque. Mauris convallis diam nulla, at imperdiet diam tincidunt non. Vestibulum ac sagittis dolor. Cras aliquam diam et justo vulputate dapibus. Nunc porta accumsan vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut neque neque. Donec dapibus faucibus leo, non finibus nibh commodo id."
+        "Aprofundei meu conhecimento em desenvolvimento de interfaces de usuário com Next.js e React.js, aplicando boas práticas para garantir usabilidade e performance.",
+        "Aprendi a realizar integrações eficientes com APIs utilizando Ky.js, melhorando a comunicação entre serviços.",
+        "Desenvolvi habilidades em metodologias ágeis, participando ativamente de dailies, plannings, reviews e retrospectivas para alinhar metas e esforços do time.",
+        "Ganhei experiência em colaboração de equipes utilizando Git e Jira, assegurando organização e transparência ao longo de todas as etapas do desenvolvimento."
       ]
     }
   },
   {
     id: 2,
-    title: "Desenvolvedor full stack na FCamara",
-    image: "/images/image 3.jpg",
+    title: "Desenvolvedor Full Stack Trainee | Fcamara",
+    image: "/images/trainee.jpg",
 
     duration: {
       title: "Atuação",
@@ -75,72 +77,79 @@ export const EXPERIENCES_CONTENT: ExperiencesContent[] = [
     experience: {
       title: "Minha experiência:",
       content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt sit amet arcu id imperdiet. Ut porttitor metus a suscipit lobortis. Mauris ut commodo nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut quam dignissim, vehicula lectus et, bibendum massa. Suspendisse tincidunt auctor leo vitae bibendum. Pellentesque quis augue at quam fringilla vehicula ut nec leo. Pellentesque et felis condimentum, vulputate turpis a, lobortis ipsum.",
-        " Quisque turpis velit, pulvinar eget dignissim sit amet, eleifend id est. Nullam lacinia sit amet leo ac vestibulum. Ut tempor libero sed semper semper. Morbi eu risus at lectus faucibus varius eu at risus. Nunc vehicula nunc nec augue pretium, ut eleifend sem semper. Morbi mattis eget ipsum mollis consequat. Nam dolor magna, convallis eu metus pellentesque, placerat lacinia augue. Morbi lobortis eros convallis mauris aliquet scelerisque. Mauris convallis diam nulla, at imperdiet diam tincidunt non. Vestibulum ac sagittis dolor. Cras aliquam diam et justo vulputate dapibus. Nunc porta accumsan vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut neque neque. Donec dapibus faucibus leo, non finibus nibh commodo id."
+        "Participei do programa de formação da empresa, com foco no aprendizado intensivo de tecnologias do ecossistema Java, React e na aplicação prática do conhecimento em projetos desafiadores. Durante o programa, contribui para o desenvolvimento de um projeto interno que visava melhorar o cotidiano dos colaboradores, aplicando conceitos de inovação e eficiência."
       ]
     },
 
     tecnologies: {
-      title: "Tencologias que utilizei:",
+      title: "Tecnologias que utilizei:",
       skills: [
         { id: 1, name: "Java" },
-        { id: 2, name: "TypeScript" },
-        { id: 3, name: "HTML5" },
-        { id: 4, name: "CSS3" },
-        { id: 5, name: "JavaScript" },
-        { id: 6, name: "Node.js" },
-        { id: 7, name: "MySQL" },
-        { id: 8, name: "Docker" },
-        { id: 9, name: "RabbitMQ" }
+        { id: 2, name: "Jakarta EE" },
+        { id: 3, name: "Spring Boot" },
+        { id: 4, name: "Spring Data" },
+        { id: 5, name: "Spring Security" },
+        { id: 6, name: "Flyway" },
+        { id: 7, name: "Docker" },
+        { id: 8, name: "MySQL" },
+        { id: 9, name: "MongoDB" },
+        { id: 10, name: "Test Containers" },
+        { id: 11, name: "React.js" },
+        { id: 12, name: "Next.js" },
+        { id: 13, name: "Vitest" },
+        { id: 14, name: "Git" },
+        { id: 13, name: "Jest" }
       ]
     },
 
     learnings: {
       title: "Aprendizados:",
       content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt sit amet arcu id imperdiet. Ut porttitor metus a suscipit lobortis. Mauris ut commodo nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut quam dignissim, vehicula lectus et, bibendum massa. Suspendisse tincidunt auctor leo vitae bibendum. Pellentesque quis augue at quam fringilla vehicula ut nec leo. Pellentesque et felis condimentum, vulputate turpis a, lobortis ipsum.",
-        "Quisque turpis velit, pulvinar eget dignissim sit amet, eleifend id est. Nullam lacinia sit amet leo ac vestibulum. Ut tempor libero sed semper semper. Morbi eu risus at lectus faucibus varius eu at risus. Nunc vehicula nunc nec augue pretium, ut eleifend sem semper. Morbi mattis eget ipsum mollis consequat. Nam dolor magna, convallis eu metus pellentesque, placerat lacinia augue. Morbi lobortis eros convallis mauris aliquet scelerisque. Mauris convallis diam nulla, at imperdiet diam tincidunt non. Vestibulum ac sagittis dolor. Cras aliquam diam et justo vulputate dapibus. Nunc porta accumsan vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut neque neque. Donec dapibus faucibus leo, non finibus nibh commodo id."
+        "Aprendi a desenvolver APIs RESTful robustas utilizando tecnologias como Java, Jakarta EE, Spring Boot, Spring Data e Spring Security.",
+        "Ganhei experiência no uso de ferramentas de migração de banco de dados com Flyway, além de trabalhar com bancos relacionais (MySQL) e não relacionais (MongoDB).",
+        "Fortaleci habilidades práticas em Docker para virtualização de aplicações e em Test Containers para testes integrados com bancos de dados.",
+        "Participei de eventos técnicos, como guildas e workshops, ampliando meu conhecimento em áreas como QA, Frontend/Backend, Agile e UI/UX Design.",
+        "Recebi acompanhamento personalizado de um mentor, permitindo uma troca rica de experiências e o desenvolvimento de soft e hard skills."
       ]
     }
   },
   {
     id: 3,
-    title: "Desenvolvedor web front-end | Conexão Azul",
-    image: "/images/image 3.jpg",
+    title: "Desenvolvedor Web Front-end | Conexão Azul",
+    image: "/images/conexao_azul.jpg",
 
     duration: {
       title: "Atuação",
-      content: ["04/2024 - 03/2024"]
+      content: ["04/2023 - 03/2024"]
     },
 
     experience: {
       title: "Minha experiência:",
       content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt sit amet arcu id imperdiet. Ut porttitor metus a suscipit lobortis. Mauris ut commodo nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut quam dignissim, vehicula lectus et, bibendum massa. Suspendisse tincidunt auctor leo vitae bibendum. Pellentesque quis augue at quam fringilla vehicula ut nec leo. Pellentesque et felis condimentum, vulputate turpis a, lobortis ipsum.",
-        " Quisque turpis velit, pulvinar eget dignissim sit amet, eleifend id est. Nullam lacinia sit amet leo ac vestibulum. Ut tempor libero sed semper semper. Morbi eu risus at lectus faucibus varius eu at risus. Nunc vehicula nunc nec augue pretium, ut eleifend sem semper. Morbi mattis eget ipsum mollis consequat. Nam dolor magna, convallis eu metus pellentesque, placerat lacinia augue. Morbi lobortis eros convallis mauris aliquet scelerisque. Mauris convallis diam nulla, at imperdiet diam tincidunt non. Vestibulum ac sagittis dolor. Cras aliquam diam et justo vulputate dapibus. Nunc porta accumsan vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut neque neque. Donec dapibus faucibus leo, non finibus nibh commodo id."
+        "Atuei no desenvolvimento de interfaces de usuário responsivas e funcionais, utilizando tecnologias front-end para criar experiências de usuário intuitivas e eficientes. Realizei testes de usabilidade para coletar feedback dos usuários e otimizei fluxos de usuário para garantir que tarefas pudessem ser concluídas com facilidade."
       ]
     },
 
     tecnologies: {
-      title: "Tencologias que utilizei:",
+      title: "Tecnologias que utilizei:",
       skills: [
-        { id: 1, name: "Java" },
-        { id: 2, name: "TypeScript" },
-        { id: 3, name: "HTML5" },
-        { id: 4, name: "CSS3" },
-        { id: 5, name: "JavaScript" },
-        { id: 6, name: "Node.js" },
-        { id: 7, name: "MySQL" },
-        { id: 8, name: "Docker" },
-        { id: 9, name: "RabbitMQ" }
+        { id: 1, name: "Python" },
+        { id: 2, name: "HTML" },
+        { id: 3, name: "XML" },
+        { id: 4, name: "CSS" },
+        { id: 5, name: "JavaScript" }
       ]
     },
 
     learnings: {
       title: "Aprendizados:",
       content: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt sit amet arcu id imperdiet. Ut porttitor metus a suscipit lobortis. Mauris ut commodo nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut quam dignissim, vehicula lectus et, bibendum massa. Suspendisse tincidunt auctor leo vitae bibendum. Pellentesque quis augue at quam fringilla vehicula ut nec leo. Pellentesque et felis condimentum, vulputate turpis a, lobortis ipsum.",
-        "Quisque turpis velit, pulvinar eget dignissim sit amet, eleifend id est. Nullam lacinia sit amet leo ac vestibulum. Ut tempor libero sed semper semper. Morbi eu risus at lectus faucibus varius eu at risus. Nunc vehicula nunc nec augue pretium, ut eleifend sem semper. Morbi mattis eget ipsum mollis consequat. Nam dolor magna, convallis eu metus pellentesque, placerat lacinia augue. Morbi lobortis eros convallis mauris aliquet scelerisque. Mauris convallis diam nulla, at imperdiet diam tincidunt non. Vestibulum ac sagittis dolor. Cras aliquam diam et justo vulputate dapibus. Nunc porta accumsan vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut neque neque. Donec dapibus faucibus leo, non finibus nibh commodo id."
+        "Adquiri habilidades avançadas no desenvolvimento de interfaces de usuário utilizando HTML, CSS, XML, JavaScript e Python.",
+        "Fortaleci minha capacidade de realizar testes de usabilidade, coletar feedback dos usuários e implementar melhorias com base nos resultados.",
+        "Desenvolvi expertise na criação de fluxos de usuário, garantindo que as interfaces fossem intuitivas e eficientes.",
+        "Ganhei experiência na personalização de campos, modelos e visões para melhorar a usabilidade e a satisfação dos usuários.",
+        "Aprimorei práticas de design de UI, mantendo consistência em todos os projetos e garantindo integração eficaz com APIs e serviços de back-end.",
+        "Resolvi problemas técnicos e funcionais relacionados às interfaces, assegurando alta qualidade e funcionalidade."
       ]
     }
   }

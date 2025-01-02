@@ -10,14 +10,14 @@ export const NAVIGATION_LINKS: Link[] = [
   },
   {
     text: "Sobre",
-    href: "/"
+    href: "#sobre"
   },
   {
     text: "Minha Jornada",
-    href: "/"
+    href: "#minha-jornada"
   },
   {
     text: "Hard skills",
-    href: "/"
+    href: "#skills"
   }
 ];
