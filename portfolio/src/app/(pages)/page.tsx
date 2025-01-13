@@ -16,8 +16,8 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <div className="container">
-      <section className="mx-4 sm:mx-0 ">
+    <div className="container w-[390px] sm:w-auto">
+      <section className="mx-4 sm:mx-0">
         <HomeBanner size="lg" />
 
         <div className="hidden sm:flex mb-20">
