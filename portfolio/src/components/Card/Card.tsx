@@ -8,7 +8,7 @@ interface Props {
 
 export default function Card({ skill }: Props) {
   return (
-    <div className="card card-compact bg-soft_white w-96 shadow-lg justify-between">
+    <div className="card card-compact bg-soft_white w-full shadow-lg justify-between">
       <div className="card-body">
         <Image
           className="w-[72px]"
