@@ -37,14 +37,8 @@ export const HARD_SKILLS: HardSkills[] = [
       { id: 4, name: "Spring Cloud" },
       { id: 5, name: "Sass" },
       { id: 6, name: "JUnit" },
-      { id: 7, name: "NextJs" },
       { id: 8, name: "Jest" },
-      { id: 9, name: "Vitest" },
-      { id: 10, name: "Sass" },
-      { id: 11, name: "JUnit" },
-      { id: 12, name: "NextJs" },
-      { id: 13, name: "Jest" },
-      { id: 14, name: "Vitest" }
+      { id: 9, name: "Vitest" }
     ]
   },
   {

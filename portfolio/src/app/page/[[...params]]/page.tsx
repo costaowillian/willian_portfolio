@@ -54,7 +54,7 @@ export default function Page() {
             className="sm:hidden"
           />
 
-          <div className="w-[1020px]">
+          <div className="">
             <ContentComponent params={paramsArray?.slice(1)} />
           </div>
 
