@@ -21,7 +21,7 @@ export default function HomeBanner({ size, classNames }: Readonly<Props>) {
 
       {size === "lg" ? (
         <div className="flex flex-col sm:flex-row justify-between">
-          <div className="">
+          <div className="w-[364px]">
             <Image
               src={"/animacoes/responsive.gif"}
               width={51}
@@ -29,11 +29,11 @@ export default function HomeBanner({ size, classNames }: Readonly<Props>) {
               alt="Responsivo animation"
             />
 
-            <p className="text-[22px] sm:text-[28px] font-bold text-white">
+            <p className="text-[28px] font-bold text-white">
               Desenvolvedor Full Stack
             </p>
 
-            <p className="text-lg sm:text-[22px] text-white text-wrap">
+            <p className="text-[22px] text-white">
               Especizalizado em criar experiências digitais imersivas e
               centradas no usuário.
             </p>
