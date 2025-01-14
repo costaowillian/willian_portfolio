@@ -21,7 +21,7 @@ export default function HomeBanner({ size, classNames }: Readonly<Props>) {
 
       {size === "lg" ? (
         <div className="flex flex-col sm:flex-row justify-between">
-          <div className="w-[364px]">
+          <div className="sm:w-[364px]">
             <Image
               src={"/animacoes/responsive.gif"}
               width={51}
